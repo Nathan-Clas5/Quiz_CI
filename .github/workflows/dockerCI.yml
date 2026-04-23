@@ -22,7 +22,7 @@ jobs:
   test-in-container:
     runs-on: ubuntu-latest
     container:
-      image: quiz_ci:v0.1
+      image: docker/NathanClas5/quiz_ci:v0.1
       # all dependencies (pytest) are already in this docker image hosted as public image in YOUR Docker Hub account
 
     steps:
